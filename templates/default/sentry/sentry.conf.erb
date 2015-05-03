@@ -78,7 +78,7 @@ EXTRA_INSTALLED_APPS = [
 
 EXTRA_ALLOWED_HOSTS = ['*']
 
-
+SENTRY_CACHE = 'sentry.cache.redis.RedisCache'
 SENTRY_REDIS_OPTIONS = {
   "hosts": {
   <% for host, hostsettings in @redis[:hosts] %>
