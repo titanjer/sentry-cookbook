@@ -28,7 +28,6 @@ default["sentry"]["settings"] = {}
 
 default["sentry"]["settings"]["plugins"] = [
                                             "sentry.plugins.sentry_mail",
-                                            "sentry.plugins.sentry_sites",
                                             "sentry.plugins.sentry_urls",
                                             "sentry.plugins.sentry_useragents"]
 
