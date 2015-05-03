@@ -1,7 +1,6 @@
 #!<%= @virtualenv %>/bin/python
 # -*- coding: utf-8 -*-
 
-from django.core.management import setup_environ
 from logan.runner import configure_app
 
 configure_app(config_path="<%= @config %>",
